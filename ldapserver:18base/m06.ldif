@@ -1,0 +1,46 @@
+dn: dc=m06,dc=cat
+dc: m06
+description: Escola del treball de Barcelona
+objectClass: dcObject
+objectClass: organization
+o: m06.cat
+
+
+dn: ou=usuaris,dc=m06,dc=cat
+ou: usuaris
+description: Container per usuaris del sistema linux
+objectclass: organizationalunit
+
+
+dn: cn=eric escriba,ou=usuaris,dc=m06,dc=cat
+objectclass: posixAccount
+objectclass: inetOrgPerson
+cn: Eric Escriba
+sn: Escriba
+homephone: 666-447-9698
+mail: eric_escriba@edt.org
+description: Watch out for this guy
+ou: Profes
+uid: pau
+uidNumber: 5000
+gidNumber: 100
+homeDirectory: /tmp/home/pau
+userPassword: {SSHA}NDkipesNQqTFDgGJfyraLz/csZAIlk2/
+
+dn: cn=jose otero,ou=usuaris,dc=m06,dc=cat
+objectclass: posixAccount
+objectclass: inetOrgPerson
+cn: guiseppe
+sn: Otero 
+homephone: 555-222-2221
+mail: mytaxi@edt.org
+description: cuidado con mi coche
+ou: Profes
+uid: pere
+uidNumber: 5001
+gidNumber: 105487
+homeDirectory: /tmp/home/pere
+userPassword: {SSHA}ghmtRL11YtXoUhIP7z6f7nb8RCNadFe+
+
+
+
