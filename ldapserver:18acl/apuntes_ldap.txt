@@ -1,0 +1,3 @@
+ ldapsearch  -x -LLL -h 172.17.0.2 -D 'cn=sysadmin,cn=config' -w syskey -b 'olcDatabase={1}bdb,cn=config' olcAccess
+ldapmodify -xv -h 172.17.0.2 -D 'cn=sysadmin,cn=config' -w syskey -f modacl.ldif 
+

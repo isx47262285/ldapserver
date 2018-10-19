@@ -1,0 +1,9 @@
+dn: cn=Anna Pou,ou=usuaris,dc=edt,dc=org
+changetype: modify
+add: mail
+mail: 03@bb
+-
+replace: homePhone
+homePhone: 12121212121
+
+
